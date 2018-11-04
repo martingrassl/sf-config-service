@@ -1,0 +1,24 @@
+{
+  "name": "sf-config-service",
+  "version": "1.0.0",
+  "description": "SF config service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.1.110:3000/javascript/sf-config-service.git"
+  },
+  "author": "Martin",
+  "license": "MIT",
+  "dependencies": {
+    "deepmerge": "^2.2.1",
+    "express": "^4.16.4",
+    "flaschenpost": "^1.1.1",
+    "processenv": "^1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.8.0"
+  }
+}

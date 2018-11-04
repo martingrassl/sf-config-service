@@ -1,0 +1,10 @@
+{
+    "labels": {
+        "label1" : "hallo",
+        "label2" : "duda"
+    },
+    "errors": {
+        "error1": "blah",
+        "error2": "blahblah"
+    }
+}

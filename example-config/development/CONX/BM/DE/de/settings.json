@@ -1,0 +1,7 @@
+{
+    "backend-url": "hallo:8000",
+    "backend": {
+        "version": 2.5,
+        "username": "hallo"
+    }
+}
