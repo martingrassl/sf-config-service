@@ -10,7 +10,13 @@ const http = require('http'),
 
 const logger = flaschenpost.getLogger();
 
-const configDirectory = processenv('CONFIG_DIR') || '.';
+let configDirectory = processenv('CONFIG_DIR') || '.';
+
+// this is necessary to create the right search string for the map
+if (!configDirectory.endsWith(path.sep)) {
+    configDirectory = configDirectory + path.sep;
+}
+
 const port = processenv('PORT') || 3000;
 const environment = processenv('ENVIRONMENT') || 'production';
 
